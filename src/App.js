@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './components/Button'
 import Jumbotron from './components/Jumbotron'
+import Counter from './components/Counter'
 import './App.css';
 
 function App() {
@@ -9,17 +10,18 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <Button />
+            <Button title=""/>
+            <Button title=""/>
           </div>
         </div>
 
         <div className="row">
           <div className="col">
-            <Jumbotron />
+            <Counter />
           </div>
 
           <div className="col">
-          <Jumbotron />
+          <Counter />
           </div>
         </div>
       </div>
